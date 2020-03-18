@@ -84,7 +84,7 @@
     background-color: gray;
     border-radius: 0 0 30px 30px;
     width: 100%;
-    height: 120%;
+    height: 35vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -102,5 +102,8 @@
 
 .nav__hire {
   padding-left: 7vw; }
+  @media screen and (max-width: 1012px) {
+    .nav__hire {
+      padding-left: 0; } }
 
 /*# sourceMappingURL=nav.css.map */
