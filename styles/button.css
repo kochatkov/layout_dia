@@ -1,0 +1,13 @@
+.button {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #2060f6;
+  background: #2060f6;
+  border-radius: 8px;
+  color: white; }
+
+/*# sourceMappingURL=button.css.map */

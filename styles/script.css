@@ -1,0 +1,31 @@
+.script {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .script__heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #253757; }
+    @media screen and (max-width: 1012px) {
+      .script__heading {
+        text-align: center; } }
+  .script__text {
+    width: 754px;
+    font-family: Open-Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6c788b; }
+    @media screen and (max-width: 1012px) {
+      .script__text {
+        width: 290px; } }
+
+/*# sourceMappingURL=script.css.map */

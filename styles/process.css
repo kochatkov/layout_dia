@@ -1,0 +1,92 @@
+.process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .process__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .process__text-1 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #6c788b; }
+  .process__text-article {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #253757; }
+  .process__text-2 {
+    color: #6c788b;
+    font-size: 14px;
+    line-height: 150%; }
+  .process__frame {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 264px;
+    height: 264px;
+    background-color: #ffff;
+    -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+            box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+    border-radius: 16px;
+    padding: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .process__frame-text {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    font-family: open-sans, sans-serif;
+    color: #6c788b; }
+  .process__frame-number {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: #2060f6;
+    height: 24px;
+    width: 46px;
+    border-radius: 23px;
+    background-color: rgba(32, 96, 246, 0.1); }
+  .process__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .process__action {
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #334563; }
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+/*# sourceMappingURL=process.css.map */

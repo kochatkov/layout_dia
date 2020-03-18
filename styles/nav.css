@@ -1,0 +1,100 @@
+.nav {
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap__button;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media screen and (min-width: 1500px) {
+    .nav {
+      width: 1500px; } }
+  .nav__logo {
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    background-image: url("../images/Air.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 30px; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1; }
+    @media screen and (max-width: 1012px) {
+      .nav__list {
+        display: none; } }
+  .nav__item {
+    padding: 8px 24px;
+    list-style: none; }
+  .nav__link {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 120px;
+    letter-spacing: 3px; }
+    .nav__link:before {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      opacity: 0;
+      background-color: #2060f6;
+      top: 27px;
+      left: 0;
+      border-radius: 2px;
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s; }
+    .nav__link:focus::before {
+      opacity: 1;
+      background-color: #2060f6; }
+  .nav__nav__hire {
+    display: inline; }
+  .nav__toggler {
+    display: none; }
+  .nav__menu {
+    z-index: 2; }
+    .nav__menu::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 70px;
+      left: 60px;
+      background-image: url(../images/menu.png);
+      background-repeat: no-repeat;
+      background-size: contain; }
+    @media screen and (min-width: 1012px) {
+      .nav__menu {
+        display: none; } }
+  .nav__toggler:checked ~ .nav__list {
+    background-color: blue;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0; }
+  .nav__toggler:checked + .nav__menu::after {
+    content: "";
+    background-image: url(../images/menuX.png);
+    width: 30px;
+    height: 30px; }
+
+/*# sourceMappingURL=nav.css.map */

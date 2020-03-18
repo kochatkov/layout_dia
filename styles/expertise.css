@@ -1,0 +1,35 @@
+.expertise {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 264px);
+  grid-gap: 80px;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+  @media screen and (max-width: 1012px) {
+    .expertise {
+      grid-template-columns: 264px;
+      grid-gap: 20px;
+      padding-top: 100px; } }
+  .expertise__photo {
+    display: block;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    width: 180px;
+    height: 166px;
+    border-radius: 12px; }
+  .expertise__article {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #253757;
+    text-align: center;
+    margin: 40px 0 16px; }
+  .expertise__text {
+    font-family: open-sans, sans-serif;
+    text-align: center;
+    color: #6c788b; }
+
+/*# sourceMappingURL=expertise.css.map */
