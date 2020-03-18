@@ -35,10 +35,15 @@ h1 {
     z-index: 1; }
     @media screen and (max-width: 1012px) {
       .nav__list {
-        display: none; } }
+        display: none;
+        position: relative; } }
   .nav__item {
     padding: 8px 24px;
-    list-style: none; }
+    list-style: none;
+    margin: 0 auto; }
+    @media screen and (max-width: 1012px) {
+      .nav__item {
+        height: 30px; } }
   .nav__link {
     position: relative;
     color: white;
@@ -62,8 +67,6 @@ h1 {
     .nav__link:focus::before {
       opacity: 1;
       background-color: #2060f6; }
-  .nav__nav__hire {
-    display: inline; }
   .nav__toggler {
     display: none; }
   .nav__menu {
@@ -82,8 +85,10 @@ h1 {
       .nav__menu {
         display: none; } }
   .nav__toggler:checked ~ .nav__list {
-    background-color: blue;
+    background-color: gray;
+    border-radius: 0 0 30px 30px;
     width: 100%;
+    height: 120%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -91,15 +96,16 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    overflow: hidden;
     padding: 0; }
   .nav__toggler:checked + .nav__menu::after {
     content: "";
     background-image: url(../images/menuX.png);
     width: 30px;
     height: 30px; }
+
+.nav__hire {
+  padding-left: 7vw; }
 
 .header {
   display: -webkit-box;
