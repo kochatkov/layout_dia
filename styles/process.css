@@ -100,12 +100,19 @@
   .process__button {
     -ms-flex-negative: 0;
         flex-shrink: 0;
+    border: 1px solid #2060f6;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: #2060f6;
     background-image: url(../images/arrow.png);
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .process__button:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
   .process__action {
     margin-left: 16px;
     font-weight: 600;
