@@ -8,6 +8,14 @@
   border: 1px solid #2060f6;
   background: #2060f6;
   border-radius: 8px;
-  color: white; }
+  color: white;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  .button:hover {
+    background: #2c2c2c; }
+  .button:focus {
+    opacity: 0.5; }
 
 /*# sourceMappingURL=button.css.map */

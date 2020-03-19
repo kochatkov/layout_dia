@@ -4,7 +4,7 @@
   justify-items: end;
   height: 673px;
   grid-gap: 30px; }
-  @media screen and (max-width: 1012px) {
+  @media screen and (max-width: 865px) {
     .strategic-agency {
       grid-template-columns: 300px; } }
   .strategic-agency__text {

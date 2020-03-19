@@ -2,12 +2,13 @@
   margin: 0 auto;
   text-transform: uppercase;
   color: white;
-  white-space: nowrap__button;
+  white-space: nowrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -17,19 +18,24 @@
   .nav__logo {
     display: inline-block;
     position: relative;
-    bottom: -5px;
     background-image: url("../images/Air.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 44px;
     height: 30px; }
+    @media screen and (max-width: 865px) {
+      .nav__logo {
+        position: absolute;
+        right: 60px;
+        top: 60px;
+        z-index: 2; } }
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     z-index: 1; }
-    @media screen and (max-width: 1012px) {
+    @media screen and (max-width: 865px) {
       .nav__list {
         display: none;
         position: relative; } }
@@ -37,17 +43,22 @@
     padding: 8px 24px;
     list-style: none;
     margin: 0 auto; }
-    @media screen and (max-width: 1012px) {
+    @media screen and (max-width: 865px) {
       .nav__item {
         height: 30px; } }
   .nav__link {
     position: relative;
     color: white;
     text-decoration: none;
+    outline: none;
     font-weight: bold;
     font-size: 13px;
     line-height: 120px;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .nav__link:hover {
+      color: #2060f6; }
     .nav__link:before {
       content: "";
       position: absolute;
@@ -77,7 +88,7 @@
       background-image: url(../images/menu.png);
       background-repeat: no-repeat;
       background-size: contain; }
-    @media screen and (min-width: 1012px) {
+    @media screen and (min-width: 865px) {
       .nav__menu {
         display: none; } }
   .nav__toggler:checked ~ .nav__list {
@@ -92,7 +103,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
     padding: 0; }
   .nav__toggler:checked + .nav__menu::after {
     content: "";
@@ -102,7 +112,7 @@
 
 .nav__hire {
   padding-left: 7vw; }
-  @media screen and (max-width: 1012px) {
+  @media screen and (max-width: 865px) {
     .nav__hire {
       padding-left: 0; } }
 

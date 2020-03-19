@@ -5,7 +5,7 @@
   grid-gap: 80px;
   -ms-flex-line-pack: center;
       align-content: center; }
-  @media screen and (max-width: 1012px) {
+  @media screen and (max-width: 865px) {
     .expertise {
       grid-template-columns: 264px;
       grid-gap: 20px;

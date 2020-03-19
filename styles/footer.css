@@ -1,0 +1,51 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #2c2c2c;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 120px;
+  margin: 0 auto; }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer__item {
+    list-style: none;
+    padding: 8px 24px;
+    white-space: nowrap; }
+  .footer__link {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .footer__link:hover {
+      color: #2060f6; }
+    .footer__link:focus {
+      border-bottom: 1px solid #2060f6; }
+  .footer__logo {
+    background-image: url(../images/Air.svg);
+    width: 45px;
+    height: 26px;
+    background-repeat: no-repeat;
+    margin-right: 9vw; }
+
+/*# sourceMappingURL=footer.css.map */
