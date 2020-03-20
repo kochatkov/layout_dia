@@ -16,7 +16,8 @@
     color: #253757; }
     @media screen and (max-width: 865px) {
       .script__heading {
-        text-align: center; } }
+        text-align: center;
+        margin-top: 60px; } }
   .script__text {
     width: 754px;
     font-family: Open-Sans, sans-serif;

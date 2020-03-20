@@ -1,15 +1,13 @@
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
   background-color: #2c2c2c;
-  height: 120px;
   padding: 0 100px; }
+  @media screen and (max-width: 865px) {
+    .header {
+      padding: 0; } }
   .header__nav {
-    position: absolute;
-    top: -18px;
-    left: 0;
-    right: 0; }
+    height: 120px; }
+    @media screen and (min-width) {
+      .header__nav {
+        width: 1600px; } }
 
 /*# sourceMappingURL=header.css.map */

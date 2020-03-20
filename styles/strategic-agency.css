@@ -1,12 +1,22 @@
 .strategic-agency {
   display: grid;
-  grid-template-columns: 1fr 680px;
+  grid-template-columns: 1fr 1fr;
   justify-items: end;
   height: 673px;
   grid-gap: 30px; }
   @media screen and (max-width: 865px) {
     .strategic-agency {
-      grid-template-columns: 300px; } }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  @media screen and (min-width: 1600px) {
+    .strategic-agency {
+      width: 1500px;
+      position: relative; } }
   .strategic-agency__text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,5 +43,8 @@
     color: white; }
   .strategic-agency__button {
     width: 226px; }
+    @media screen and (max-width: 865px) {
+      .strategic-agency__button {
+        width: 100%; } }
 
 /*# sourceMappingURL=strategic-agency.css.map */

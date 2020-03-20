@@ -3,6 +3,7 @@
   width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -40,6 +41,10 @@
       .testimonials__card {
         padding: 5px;
         width: 250px; } }
+    @media screen and (max-width: 865px) {
+      .testimonials__card {
+        width: 314px;
+        height: 494px; } }
   .testimonials__img {
     position: relative;
     z-index: 2;

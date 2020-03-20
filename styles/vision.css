@@ -22,10 +22,16 @@
             justify-content: center;
     width: 754px;
     text-align: center; }
+    @media screen and (max-width: 865px) {
+      .vision__text {
+        width: 100%; } }
   .vision__article {
     font-size: 52px;
     line-height: 150%;
     color: #253757; }
+    @media screen and (max-width: 865px) {
+      .vision__article {
+        font-size: 30px; } }
   .vision__description {
     margin: 24px 0 64px;
     font-size: 24px;
@@ -34,5 +40,8 @@
   .vision__button {
     width: 256px;
     margin: 0 auto; }
+    @media screen and (max-width: 865px) {
+      .vision__button {
+        width: 100%; } }
 
 /*# sourceMappingURL=vision.css.map */

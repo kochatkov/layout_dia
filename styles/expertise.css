@@ -2,7 +2,7 @@
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(3, 264px);
-  grid-gap: 80px;
+  grid-gap: 10px;
   -ms-flex-line-pack: center;
       align-content: center; }
   @media screen and (max-width: 865px) {
