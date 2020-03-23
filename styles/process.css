@@ -119,6 +119,7 @@
   .process__button {
     -ms-flex-negative: 0;
         flex-shrink: 0;
+    outline: none;
     border: 1px solid #2060f6;
     width: 40px;
     height: 40px;
@@ -133,6 +134,8 @@
     .process__button:hover {
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
+    .process__button:focus {
+      opacity: 0.8; }
   .process__action {
     margin-left: 16px;
     font-weight: 600;
