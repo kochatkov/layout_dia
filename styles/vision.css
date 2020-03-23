@@ -40,8 +40,5 @@
   .vision__button {
     width: 256px;
     margin: 0 auto; }
-    @media screen and (max-width: 865px) {
-      .vision__button {
-        width: 100%; } }
 
 /*# sourceMappingURL=vision.css.map */

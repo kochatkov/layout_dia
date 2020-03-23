@@ -58,7 +58,8 @@
                 flex-direction: column;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                align-items: center; } }
+                align-items: center;
+        width: 300px; } }
   .process__frame {
     z-index: 1;
     -webkit-box-sizing: border-box;
@@ -89,6 +90,9 @@
       .process__frame:nth-child(even) {
         -webkit-transform: translateX(0%);
                 transform: translateX(0%); } }
+    @media screen and (max-width: 1011px) {
+      .process__frame:nth-child(even) {
+        margin-bottom: 30px; } }
   .process__frame:nth-child(odd) {
     -webkit-transform: translateY(80%);
             transform: translateY(80%); }
@@ -123,6 +127,7 @@
     background-image: url(../images/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
     -webkit-transition: all 0.3s;
     transition: all 0.3s; }
     .process__button:hover {

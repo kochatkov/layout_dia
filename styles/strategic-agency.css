@@ -27,7 +27,18 @@
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    -webkit-transform: translateX(-90px);
+            transform: translateX(-90px); }
+    @media screen and (max-width: 1200px) {
+      .strategic-agency__text {
+        -webkit-transform: translateX(0);
+                transform: translateX(0); } }
+    @media screen and (max-width: 865px) {
+      .strategic-agency__text {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        margin-top: 25px; } }
   .strategic-agency__text-heading {
     font-weight: 600;
     font-size: 64px;
@@ -35,16 +46,28 @@
     letter-spacing: -2px;
     font-style: normal;
     color: white; }
+    @media screen and (max-width: 865px) {
+      .strategic-agency__text-heading {
+        font-size: 35px;
+        line-height: 30px;
+        text-align: center; } }
   .strategic-agency__description {
     margin-bottom: 83px;
     font-family: Open-Sans, sans-serif;
     font-size: 18px;
     line-height: 150%;
     color: white; }
+    @media screen and (max-width: 865px) {
+      .strategic-agency__description {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 40px; } }
   .strategic-agency__button {
     width: 226px; }
     @media screen and (max-width: 865px) {
       .strategic-agency__button {
-        width: 100%; } }
+        margin: 0 auto;
+        width: 300px; } }
 
 /*# sourceMappingURL=strategic-agency.css.map */

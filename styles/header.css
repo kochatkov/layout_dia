@@ -6,8 +6,8 @@
       padding: 0; } }
   .header__nav {
     height: 120px; }
-    @media screen and (min-width) {
+    @media screen and (max-width: 865px) {
       .header__nav {
-        width: 1600px; } }
+        height: 100%; } }
 
 /*# sourceMappingURL=header.css.map */
