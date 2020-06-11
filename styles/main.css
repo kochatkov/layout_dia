@@ -691,15 +691,18 @@ p {
         -ms-flex-align: center;
             align-items: center; }
   .approach__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     width: 64px;
     height: 64px;
     background-color: white;
     border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
@@ -1065,6 +1068,21 @@ p {
       opacity: 1; }
     .contact__socials-link:focus {
       opacity: 1; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 1px solid #2060f6;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #2c2c2c inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s; }
 
 .vision {
   display: -webkit-box;
